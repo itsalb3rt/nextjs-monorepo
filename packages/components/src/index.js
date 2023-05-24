@@ -1,5 +1,8 @@
+import 'antd/dist/antd.js';
 import ContactForm from './Forms/ContactForm';
+import UserCard from './AntD/UserCard/Index';
 
 export {
-  ContactForm
+  ContactForm,
+  UserCard
 }

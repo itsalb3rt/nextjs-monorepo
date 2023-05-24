@@ -14,6 +14,9 @@ const TheMenu = () => {
             <Link className="ml-4 text-gray-300 hover:text-white" href="/contact">
               Contact
             </Link>
+            <Link className="ml-4 text-gray-300 hover:text-white" href="/profile">
+              Profile
+            </Link>
           </div>
         </div>
       </div>
