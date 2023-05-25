@@ -15,7 +15,8 @@
   },
   "scripts": {
     "lint": "eslint --fix --ext .js,.jsx .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "create-next-app": "bash create-app.sh"
   },
   "dependencies": {
     "@babel/core": "^7.21.8",

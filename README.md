@@ -34,3 +34,11 @@ Or if you want to add any dependency on the root `package.json` use the followin
 ```bash
 yarn add antd -W
 ```
+
+## Create App
+
+The next command help you to create a new app, copy the next command and run into a new terminal;
+
+```bash
+yarn create-next-app
+```
