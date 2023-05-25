@@ -7,6 +7,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "lint-staged": {
+    "*.{js,jsx}": "eslint"
+  },
   "standard": {
     "parser": "babel-eslint"
   },
@@ -24,7 +27,8 @@
   },
   "devDependencies": {
     "eslint": "^8.41.0",
+    "husky": "^8.0.0",
     "prettier": "^2.8.8",
-    "husky": "^8.0.0"
+    "lint-staged": "^13.2.2"
   }
 }
