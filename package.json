@@ -11,8 +11,8 @@
     "parser": "babel-eslint"
   },
   "scripts": {
-    "prettier:check": "npx prettier --list-different .",
-    "lint": "eslint --fix --ext .js,.jsx ."
+    "lint": "eslint --fix --ext .js,.jsx .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@babel/core": "^7.21.8",
@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "eslint": "^8.41.0",
-    "prettier": "^2.8.8"
+    "prettier": "^2.8.8",
+    "husky": "^8.0.0"
   }
 }
