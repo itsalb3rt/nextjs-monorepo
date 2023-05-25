@@ -1,3 +1,3 @@
-const githubAPI = 'https://api.github.com';
+const githubAPI = 'https://api.github.com'
 
 export { githubAPI }

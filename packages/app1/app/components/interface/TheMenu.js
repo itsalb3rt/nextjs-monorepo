@@ -1,6 +1,6 @@
-'use client';
-import React from 'react';
-import Link from 'next/link';
+'use client'
+import React from 'react'
+import Link from 'next/link'
 
 const TheMenu = () => {
   return (
@@ -21,7 +21,7 @@ const TheMenu = () => {
         </div>
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default TheMenu;
+export default TheMenu

@@ -1,6 +1,6 @@
-'use client';
-import React from 'react';
-import { ContactForm } from 'components';
+'use client'
+import React from 'react'
+import { ContactForm } from 'components'
 
 export default function Home() {
   return (

@@ -13,8 +13,8 @@ const nextConfig = {
           presets: ['@babel/preset-react'],
         },
       },
-    });
-    return config;
+    })
+    return config
   },
 }
 

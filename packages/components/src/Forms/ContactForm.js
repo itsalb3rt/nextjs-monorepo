@@ -1,20 +1,20 @@
-"use client"
-import React, { useState } from 'react';
-import emailjs from '@emailjs/browser';
+'use client'
+import React, { useState } from 'react'
+import emailjs from '@emailjs/browser'
 
 const ContactForm = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault()
     // Perform form submission logic here (e.g., send data to backend)
     const templateParams = {
       name,
       email,
       message,
-    };
+    }
 
     emailjs
       .send(
@@ -25,18 +25,18 @@ const ContactForm = () => {
       )
       .then(
         (response) => {
-          console.log('SUCCESS!', response.status, response.text);
+          console.log('SUCCESS!', response.status, response.text)
         },
         (err) => {
-          console.log('FAILED...', err);
+          console.log('FAILED...', err)
         }
-      );
+      )
 
     // Reset form fields
-    setName('');
-    setEmail('');
-    setMessage('');
-  };
+    setName('')
+    setEmail('')
+    setMessage('')
+  }
 
   return (
     <form onSubmit={handleSubmit} className="max-w-md mx-auto">
@@ -86,7 +86,7 @@ const ContactForm = () => {
         Submit
       </button>
     </form>
-  );
-};
+  )
+}
 
-export default ContactForm;
+export default ContactForm
