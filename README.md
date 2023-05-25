@@ -42,3 +42,11 @@ The next command help you to create a new app, copy the next command and run int
 ```bash
 yarn create-next-app
 ```
+
+After app creation, you can run it with the following command;
+
+```bash
+yarn workspace app-name dev
+```
+
+> Change `app-name` for your app name and `dev` for you run command if this not called `dev`
