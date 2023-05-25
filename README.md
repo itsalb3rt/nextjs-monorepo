@@ -1,6 +1,12 @@
 # Monorepo using Nextjs, AntD, and Tailwind CSS
 
-This repository is to demonstrate the use of the Nextjs, AntD, and tailwind CSS on the same repository, separate on apps and components..
+This repository is to demonstrate the use of the Nextjs, AntD, and tailwind CSS on the same repository, separate on apps and components.
+
+**Others features**
+
+- ✅ Husky
+- ✅ Eslint
+- ✅ Prettier
 
 ## Get started
 
